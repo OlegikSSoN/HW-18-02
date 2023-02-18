@@ -10,3 +10,18 @@
         font-size:22px;
     }
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+    input, textarea, button {
+        margin: 12px 0;
+        max-width: 300px;
+    }
+    #show_textarea {
+        display: none;
+    }
+    #show_textarea.show {
+        display: block;
+    }
+}

@@ -5,4 +5,19 @@
 }
 .item__text {
   font-size: 22px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+form input, form textarea, form button {
+  margin: 12px 0;
+  max-width: 300px;
+}
+form #show_textarea {
+  display: none;
+}
+form #show_textarea.show {
+  display: block;
 }/*# sourceMappingURL=style.css.map */

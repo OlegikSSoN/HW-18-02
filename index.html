@@ -10,16 +10,24 @@
     <title>JavaScript 18.02</title>
 </head>
 
-<body onload = "showPost()">
+<body>
 
     <form>
         <input type="text" id="title" placeholder="Title">
         <input type="text" id="description" placeholder="Desc">
+        <input type="number" id="price" placeholder="Price">
+        <textarea id="content" placeholder="Contenr"></textarea>
+        <input onclick="showTextArea()" type="checkbox" id="box" name="is_publ" value="true">
         <button type="sumbit" onclick="addPost(event)">Test</button>
     </form>
 
 <section id="posts_list">
 </section>
+
+<form>
+    <input type="number" name="price" id="filter_price"/>
+    <button type="sumbit" onclick="filterPoataByPrice()">Filter</button>
+</form>
 
     <script src="./js/javascript.js"></script>
 </body>
