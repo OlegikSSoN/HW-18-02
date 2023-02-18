@@ -1,0 +1,12 @@
+.item {
+    &__title {
+        h2 {
+            font-size: 22px;
+            color: aqua;
+            border: 1px solid black;
+        }
+    }
+    &__text {
+        font-size:22px;
+    }
+}
