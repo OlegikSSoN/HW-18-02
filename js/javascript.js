@@ -53,4 +53,9 @@ comments: []
 POSTS.push(POSTS)
 
 showPost()
+
+const FORM = document.querySelector('form');
+FORM.
   }
+
+  
