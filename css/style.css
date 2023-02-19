@@ -27,4 +27,14 @@ form #content {
 }
 form #content.show {
   display: block;
+}
+
+.person {
+  padding: 14px;
+  display: flex;
+}
+.person__card {
+  margin: 12px;
+  max-width: 200px;
+  border: 1px solid #ccc;
 }/*# sourceMappingURL=style.css.map */

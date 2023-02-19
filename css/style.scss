@@ -28,3 +28,13 @@ form{
         display: block;
     }
 }
+
+.person {
+    padding: 14px;
+    display: flex;
+    &__card {
+        margin: 12px;
+        max-width: 200px;
+        border: 1px solid #ccc;
+    }
+}
