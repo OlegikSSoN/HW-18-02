@@ -7,28 +7,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style.scss">
-    <title>JavaScript 18.02</title>
+    <title>JavaScript 18/19.02</title>
 </head>
 
 <body>
-
+    <section class="form mb-3">
     <form>
-        <input type="text" id="title" placeholder="Title">
-        <input type="text" id="description" placeholder="Desc">
-        <input type="number" id="price" placeholder="Price">
-        <textarea id="content" placeholder="Contenr"></textarea>
-        <input onclick="showTextArea()" type="checkbox" id="box" name="is_publ" value="true">
-        <button type="sumbit" onclick="addPost(event)">Test</button>
+        <input onchange="getPersonalInfo(event)" type="text" id="first_name" placeholder="First Name">
+        <input onchange="getPersonalInfo(event)" type="text" id="last_name" placeholder="Last Name">
+        <input onchange="getPersonalInfo(event)" type="text" id="father_name" placeholder="Father Name">
     </form>
-
-<section id="posts_list">
-</section>
-
-<form>
-    <input type="number" name="price" id="filter_price"/>
-    <button type="sumbit" onclick="filterPoataByPrice()">Filter</button>
-</form>
-
+    </section>
+    <section class="output">
+        <h2>
+        <span id="output_first_name">ffff</span>
+        <span id="output_last_name">llll</span>
+        <span id="output_father_name">fff</span>
+    </h2>
+    </section>
     <script src="./js/javascript.js"></script>
 </body>
 

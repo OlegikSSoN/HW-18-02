@@ -1,10 +1,17 @@
-.item__title h2 {
-  font-size: 22px;
-  color: aqua;
-  border: 1px solid black;
+#output_last_name {
+  text-transform: capitalize;
+}
+
+.item {
+  display: inline-block;
+  padding: 12px;
+  border: 1px solid #ccc;
+}
+.item__title {
+  color: aquamarine;
 }
 .item__text {
-  font-size: 22px;
+  color: rgb(255, 128, 0);
 }
 
 form {
@@ -15,9 +22,9 @@ form input, form textarea, form button {
   margin: 12px 0;
   max-width: 300px;
 }
-form #show_textarea {
+form #content {
   display: none;
 }
-form #show_textarea.show {
+form #content.show {
   display: block;
 }/*# sourceMappingURL=style.css.map */

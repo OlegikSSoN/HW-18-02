@@ -1,27 +1,30 @@
-.item {
-    &__title {
-        h2 {
-            font-size: 22px;
-            color: aqua;
-            border: 1px solid black;
-        }
+#output_last_name {
+    text-transform: capitalize;
+}
+
+.item{
+    display: inline-block;
+    padding: 12px;
+    border: 1px solid #ccc;
+    &__title{
+        color: aquamarine;
     }
-    &__text {
-        font-size:22px;
+    &__text{
+        color: rgb(255, 128, 0);
     }
 }
 
-form {
+form{
     display: flex;
     flex-direction: column;
-    input, textarea, button {
+    input, textarea, button{
         margin: 12px 0;
         max-width: 300px;
     }
-    #show_textarea {
+    #content{
         display: none;
     }
-    #show_textarea.show {
+    #content.show{
         display: block;
     }
 }
